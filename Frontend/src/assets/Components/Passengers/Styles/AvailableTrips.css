@@ -1,0 +1,67 @@
+.trips-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trips-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.trips-loading,
+.trips-error,
+.trips-empty {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.trips-error {
+    color: red;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.trip-card {
+    background-color: #bbbabe; /* Fondo gris claro para la tarjeta */
+    color: #1b1a1a; /* Texto oscuro para contraste */
+    border-radius: 10px;
+    padding: 15px; /* Aumentar el espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    max-width: 220px;
+    min-height: 120px; /* Aumenta la altura mínima */
+    height: auto;
+    display: flex; /* Usa flex para alinear el contenido */
+    flex-direction: column; /* Alinea verticalmente */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+}
+
+.trip-origin,
+.trip-destination,
+.trip-cost {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center; /* Centra el texto dentro de la tarjeta */
+}
+
+.custom-button {
+    width: 100%; /* Ancho completo del botón */
+}
+.trip-error{
+    color:rgb(143, 22, 22);
+    text-align: center;
+}

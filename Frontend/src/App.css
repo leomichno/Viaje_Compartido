@@ -1,0 +1,12 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Esto asegura que el padding y el border no sumen al tamaño total de los elementos */
+}
+
+.cont-pages {
+    margin-top: 80px;
+}
+
+
