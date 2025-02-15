@@ -9,6 +9,7 @@ import MyTripsPage from "./pages/MyTrips";
 import { AvailableTrips } from "./assets/Components/Passengers/AvailableTrips";
 import { CarForm } from "./assets/Components/CustomForm/features/cars";
 import { TripForm } from "./assets/Components/CustomForm/trips/TripForm";
+import "./App.css"
 
 // Definimos los tipos de role
 type Role = "" | "PASAJERO" | "CONDUCTOR" | null;
