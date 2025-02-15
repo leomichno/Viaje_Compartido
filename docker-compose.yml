@@ -32,7 +32,7 @@ services:
       - app-network
 
   frontend:
-    build: ./frontend
+    build: ./Frontend
     ports:
       - "3000:80"
     networks:
